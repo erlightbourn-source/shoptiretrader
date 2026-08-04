@@ -6,7 +6,7 @@
 
   /* FormSubmit random-string alias — routes to Evan's Gmail; brand is
      disambiguated by the _subject line. */
-  var FORM_ENDPOINT = "https://formsubmit.co/ajax/d32e4dad5c35cab7cb74c858a6943793";
+  var FORM_ENDPOINT = "https://formsubmit.co/ajax/erlightbourn@gmail.com";
 
   function sendForm(payload) {
     return fetch(FORM_ENDPOINT, {
